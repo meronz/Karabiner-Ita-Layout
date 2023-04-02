@@ -1,0 +1,605 @@
+{
+  "title": "Italian accent (Right Option + aeiou)",
+  "rules": [
+    {
+      "description": "A grave",
+      "manipulators": [
+        {
+          "type": "basic",
+          "from": {
+            "modifiers": {
+              "mandatory": [
+                "right_alt"
+              ]
+            },
+            "key_code": "a"
+          },
+          "to": [
+            {
+              "repeat": false,
+              "key_code": "right_alt",
+              "lazy": true
+            },
+            {
+              "repeat": false,
+              "key_code": "grave_accent_and_tilde",
+              "modifiers": [
+                "right_alt"
+              ]
+            },
+            {
+              "repeat": true,
+              "key_code": "a"
+            }
+          ]
+        },
+        {
+          "type": "basic",
+          "from": {
+            "modifiers": {
+              "mandatory": [
+                "right_alt",
+                "right_shift"
+              ]
+            },
+            "key_code": "a"
+          },
+          "to": [
+            {
+              "repeat": false,
+              "key_code": "right_alt",
+              "lazy": true
+            },
+            {
+              "repeat": false,
+              "key_code": "grave_accent_and_tilde",
+              "modifiers": [
+                "right_alt"
+              ]
+            },
+            {
+              "repeat": true,
+              "key_code": "a",
+              "modifiers": [
+                "right_shift"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "basic",
+          "from": {
+            "modifiers": {
+              "mandatory": [
+                "right_alt",
+                "left_shift"
+              ]
+            },
+            "key_code": "a"
+          },
+          "to": [
+            {
+              "repeat": false,
+              "key_code": "right_alt",
+              "lazy": true
+            },
+            {
+              "repeat": false,
+              "key_code": "grave_accent_and_tilde",
+              "modifiers": [
+                "right_alt"
+              ]
+            },
+            {
+              "repeat": true,
+              "key_code": "a",
+              "modifiers": [
+                "left_shift"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "description": "E grave",
+      "manipulators": [
+        {
+          "type": "basic",
+          "from": {
+            "modifiers": {
+              "mandatory": [
+                "right_alt"
+              ]
+            },
+            "key_code": "e"
+          },
+          "to": [
+            {
+              "repeat": false,
+              "key_code": "right_alt",
+              "lazy": true
+            },
+            {
+              "repeat": false,
+              "key_code": "grave_accent_and_tilde",
+              "modifiers": [
+                "right_alt"
+              ]
+            },
+            {
+              "repeat": true,
+              "key_code": "e"
+            }
+          ]
+        },
+        {
+          "type": "basic",
+          "from": {
+            "modifiers": {
+              "mandatory": [
+                "right_alt",
+                "right_shift"
+              ]
+            },
+            "key_code": "e"
+          },
+          "to": [
+            {
+              "repeat": false,
+              "key_code": "right_alt",
+              "lazy": true
+            },
+            {
+              "repeat": false,
+              "key_code": "grave_accent_and_tilde",
+              "modifiers": [
+                "right_alt"
+              ]
+            },
+            {
+              "repeat": true,
+              "key_code": "e",
+              "modifiers": [
+                "right_shift"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "basic",
+          "from": {
+            "modifiers": {
+              "mandatory": [
+                "right_alt",
+                "left_shift"
+              ]
+            },
+            "key_code": "e"
+          },
+          "to": [
+            {
+              "repeat": false,
+              "key_code": "right_alt",
+              "lazy": true
+            },
+            {
+              "repeat": false,
+              "key_code": "grave_accent_and_tilde",
+              "modifiers": [
+                "right_alt"
+              ]
+            },
+            {
+              "repeat": true,
+              "key_code": "e",
+              "modifiers": [
+                "left_shift"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "description": "E acuta",
+      "manipulators": [
+        {
+          "type": "basic",
+          "from": {
+            "modifiers": {
+              "mandatory": [
+                "right_alt"
+              ]
+            },
+            "key_code": "r"
+          },
+          "to": [
+            {
+              "repeat": false,
+              "key_code": "left_alt",
+              "lazy": true
+            },
+            {
+              "repeat": false,
+              "key_code": "e",
+              "modifiers": [
+                "left_alt"
+              ]
+            },
+            {
+              "repeat": true,
+              "key_code": "e"
+            }
+          ]
+        },
+        {
+          "type": "basic",
+          "from": {
+            "modifiers": {
+              "mandatory": [
+                "right_alt",
+                "right_shift"
+              ]
+            },
+            "key_code": "r"
+          },
+          "to": [
+            {
+              "repeat": false,
+              "key_code": "left_alt",
+              "lazy": true
+            },
+            {
+              "repeat": false,
+              "key_code": "e",
+              "modifiers": [
+                "left_alt"
+              ]
+            },
+            {
+              "repeat": true,
+              "key_code": "e",
+              "modifiers": [
+                "right_shift"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "basic",
+          "from": {
+            "modifiers": {
+              "mandatory": [
+                "right_alt",
+                "left_shift"
+              ]
+            },
+            "key_code": "r"
+          },
+          "to": [
+            {
+              "repeat": false,
+              "key_code": "left_alt",
+              "lazy": true
+            },
+            {
+              "repeat": false,
+              "key_code": "e",
+              "modifiers": [
+                "left_alt"
+              ]
+            },
+            {
+              "repeat": true,
+              "key_code": "e",
+              "modifiers": [
+                "left_shift"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "description": "I grave",
+      "manipulators": [
+        {
+          "type": "basic",
+          "from": {
+            "modifiers": {
+              "mandatory": [
+                "right_alt"
+              ]
+            },
+            "key_code": "i"
+          },
+          "to": [
+            {
+              "repeat": false,
+              "key_code": "right_alt",
+              "lazy": true
+            },
+            {
+              "repeat": false,
+              "key_code": "grave_accent_and_tilde",
+              "modifiers": [
+                "right_alt"
+              ]
+            },
+            {
+              "repeat": true,
+              "key_code": "i"
+            }
+          ]
+        },
+        {
+          "type": "basic",
+          "from": {
+            "modifiers": {
+              "mandatory": [
+                "right_alt",
+                "right_shift"
+              ]
+            },
+            "key_code": "i"
+          },
+          "to": [
+            {
+              "repeat": false,
+              "key_code": "right_alt",
+              "lazy": true
+            },
+            {
+              "repeat": false,
+              "key_code": "grave_accent_and_tilde",
+              "modifiers": [
+                "right_alt"
+              ]
+            },
+            {
+              "repeat": true,
+              "key_code": "i",
+              "modifiers": [
+                "right_shift"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "basic",
+          "from": {
+            "modifiers": {
+              "mandatory": [
+                "right_alt",
+                "left_shift"
+              ]
+            },
+            "key_code": "i"
+          },
+          "to": [
+            {
+              "repeat": false,
+              "key_code": "right_alt",
+              "lazy": true
+            },
+            {
+              "repeat": false,
+              "key_code": "grave_accent_and_tilde",
+              "modifiers": [
+                "right_alt"
+              ]
+            },
+            {
+              "repeat": true,
+              "key_code": "i",
+              "modifiers": [
+                "left_shift"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "description": "O grave",
+      "manipulators": [
+        {
+          "type": "basic",
+          "from": {
+            "modifiers": {
+              "mandatory": [
+                "right_alt"
+              ]
+            },
+            "key_code": "o"
+          },
+          "to": [
+            {
+              "repeat": false,
+              "key_code": "right_alt",
+              "lazy": true
+            },
+            {
+              "repeat": false,
+              "key_code": "grave_accent_and_tilde",
+              "modifiers": [
+                "right_alt"
+              ]
+            },
+            {
+              "repeat": true,
+              "key_code": "o"
+            }
+          ]
+        },
+        {
+          "type": "basic",
+          "from": {
+            "modifiers": {
+              "mandatory": [
+                "right_alt",
+                "right_shift"
+              ]
+            },
+            "key_code": "o"
+          },
+          "to": [
+            {
+              "repeat": false,
+              "key_code": "right_alt",
+              "lazy": true
+            },
+            {
+              "repeat": false,
+              "key_code": "grave_accent_and_tilde",
+              "modifiers": [
+                "right_alt"
+              ]
+            },
+            {
+              "repeat": true,
+              "key_code": "o",
+              "modifiers": [
+                "right_shift"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "basic",
+          "from": {
+            "modifiers": {
+              "mandatory": [
+                "right_alt",
+                "left_shift"
+              ]
+            },
+            "key_code": "o"
+          },
+          "to": [
+            {
+              "repeat": false,
+              "key_code": "right_alt",
+              "lazy": true
+            },
+            {
+              "repeat": false,
+              "key_code": "grave_accent_and_tilde",
+              "modifiers": [
+                "right_alt"
+              ]
+            },
+            {
+              "repeat": true,
+              "key_code": "o",
+              "modifiers": [
+                "left_shift"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "description": "U grave",
+      "manipulators": [
+        {
+          "type": "basic",
+          "from": {
+            "modifiers": {
+              "mandatory": [
+                "right_alt"
+              ]
+            },
+            "key_code": "u"
+          },
+          "to": [
+            {
+              "repeat": false,
+              "key_code": "right_alt",
+              "lazy": true
+            },
+            {
+              "repeat": false,
+              "key_code": "grave_accent_and_tilde",
+              "modifiers": [
+                "right_alt"
+              ]
+            },
+            {
+              "repeat": true,
+              "key_code": "u"
+            }
+          ]
+        },
+        {
+          "type": "basic",
+          "from": {
+            "modifiers": {
+              "mandatory": [
+                "right_alt",
+                "right_shift"
+              ]
+            },
+            "key_code": "u"
+          },
+          "to": [
+            {
+              "repeat": false,
+              "key_code": "right_alt",
+              "lazy": true
+            },
+            {
+              "repeat": false,
+              "key_code": "grave_accent_and_tilde",
+              "modifiers": [
+                "right_alt"
+              ]
+            },
+            {
+              "repeat": true,
+              "key_code": "u",
+              "modifiers": [
+                "right_shift"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "basic",
+          "from": {
+            "modifiers": {
+              "mandatory": [
+                "right_alt",
+                "left_shift"
+              ]
+            },
+            "key_code": "u"
+          },
+          "to": [
+            {
+              "repeat": false,
+              "key_code": "right_alt",
+              "lazy": true
+            },
+            {
+              "repeat": false,
+              "key_code": "grave_accent_and_tilde",
+              "modifiers": [
+                "right_alt"
+              ]
+            },
+            {
+              "repeat": true,
+              "key_code": "u",
+              "modifiers": [
+                "left_shift"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
